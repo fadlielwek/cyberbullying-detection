@@ -6,4 +6,5 @@ beautifulsoup4
 nltk
 pandas
 emoji
-scikit-learn
+scikit-learn==1.7.1
+
