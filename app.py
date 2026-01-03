@@ -14,9 +14,11 @@ from pydantic import BaseModel
 from bs4 import BeautifulSoup
 from nltk.tokenize import word_tokenize
 import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-from nltk.corpus import stopwords
+
+nltk.data.path.append("/tmp/nltk_data")
+nltk.download('punkt', download_dir="/tmp/nltk_data")
+nltk.download('stopwords', download_dir="/tmp/nltk_data")
+
 
 
 # =========================
