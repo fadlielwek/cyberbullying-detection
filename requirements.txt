@@ -1,1 +1,9 @@
-males nambahin hehe, ulik sendiri biar pinter ya :)
+fastapi
+uvicorn
+jinja2
+pydantic
+beautifulsoup4
+nltk
+pandas
+emoji
+scikit-learn
